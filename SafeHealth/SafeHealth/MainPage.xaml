@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="SafeHealth.MainPage">
+   
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pregnancy Health Tips For Women"
+                      />
+    </ContentPage.ToolbarItems >
+    <ContentPage.Content >
+        <StackLayout Margin="10,50,10,10">
+        <!-- Place new controls here -->
+
+            <Button Text="Health During Pregnancy"  Clicked="DuringPregnancy"/>
+            <Button Text="Danger Signs During Birth"  Clicked="DuringBirth"/>
+        <Button Text="Danger Signs After Birth"  Clicked="AfterBirth"/>
+    </StackLayout>
+        </ContentPage.Content>
+</ContentPage>

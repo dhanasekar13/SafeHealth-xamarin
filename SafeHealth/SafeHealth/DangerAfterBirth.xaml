@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SafeHealth.DangerAfterBirth">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Danger After Birth"
+                      />
+    </ContentPage.ToolbarItems >
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20,35,20,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="250" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="250" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Label TextColor="LightGreen" 
+                   >Bleeding
+                </Label>
+                <Label Grid.Column="1"
+           Text="Fever"  TextColor="LightGreen"/>
+                <Label Grid.Row="1" >
+                    It is normal for a woman to bleed a little after birth. But treat immediately for bleeding if she:
+
+Soaks 2 or more cloths or pads in an hour
+Non stop bleed
+                </Label>
+                <Label Grid.Column="1"
+         Grid.Row="1"
+         >If the mother has a fever during the first weeks after the birth, she may have an infection of the womb. Other signs of womb infections are:
+
+Chills
+Pain and trenderness in the belly</Label>
+               
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SafeHealth.DangerDuringBirth">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Danger During Birth"
+                      />
+    </ContentPage.ToolbarItems >
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20,35,20,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="250" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="250" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Label TextColor="LightGreen" 
+                   >Bleeding
+                </Label>
+                <Label Grid.Column="1"
+           Text="Too long labor"  TextColor="LightGreen"/>
+                <Label Grid.Row="1" >
+                    *  HEALTHY SIGNS
+                    
+  - No bleeding
+                    
+  - Very light bleeding or spotting for few days during first months,with no cramps
+                    
+  - Pink or slightly bloody mucus 2 to 3 days before labor begins.
+                    
+ *  WARNING SIGNS
+ 
+    - Lot of blood bleed
+                </Label>
+                <Label Grid.Column="1"
+         Grid.Row="1"
+         >A very long labor can lead to lasting health problems for the mother, or may be sign that the baby can not come out without medical help.The labor is too long when:
+
+The mother has been in strong, active labor for more than 12 hours.
+                    
+The mother has been pushing for more than 2 hours without any signs that baby will born soon</Label>
+                <Label Grid.Row="2"  TextColor="LightGreen"  >
+                    Severe pain in abdomen</Label>
+                <Label Grid.Row="2" Grid.Column="1" Text="SEIZURE/FITS" TextColor="LightGreen"  />
+
+                <Label Grid.Row="3"  >
+                    PLACENTA
+                    
+ - Severe pain in the belly with or without bleeding may mean that the placenta has become separated from the wall of the womb.
+                </Label>
+                <Label Grid.Row="3" Grid.Column="1">
+                    Signs
+
+ - Rolling eyes
+ - Twitching hands and face
+ - Stiff, rigid, or shaking body
+ - Unconsciousness
+                </Label>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
